@@ -9,14 +9,15 @@ def main():
     # this function shows formatting output
 
     # input
-    value = float(input("Enter a value ($): "))
+    one = 0.1
+    two = 0.2
 
     # process
-    # nill
+    total = one + two
 
     # output
     print("")
-    print("The cost is: ${:,.2f}".format(value))
+    print("0.1 + 0.2 = {:,.1f}".format(total))
 
     print("\nDone.")
 
